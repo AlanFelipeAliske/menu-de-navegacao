@@ -1,0 +1,32 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  transition: .2s;
+}
+aside{
+  float: right;
+  display: flex;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+}
+ul{
+  font-size: 17px;
+  margin: 10px;
+}
+#menu-area{
+  background: #f4f4f4;
+  width: 250px;
+  height: 100vh;
+  margin-left: 10px;
+}
+#menu-opener{
+  cursor: pointer;
+  margin-top: 10px;
+}
+li:hover{
+  color: grey;
+  cursor: pointer;
+}
